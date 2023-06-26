@@ -10,4 +10,5 @@ export const store = configureStore({
         user: userReducer,
         photo: photoReducer,
     },
+    devTools: false
 })

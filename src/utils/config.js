@@ -1,5 +1,7 @@
-export const api = "http://localhost:5000/api"
-export const uploads = "http://localhost:5000/uploads"
+// export const api = "http://localhost:5000/api"
+// export const uploads = "http://localhost:5000/uploads"
+export const api = "http://gtGram-api.onrender.com/api"
+export const uploads = "http://gtGram-api.onrender.com/uploads"
 
 export const requestConfig = (method, data, token = null, image = null ) => {
 
