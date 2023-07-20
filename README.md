@@ -40,12 +40,14 @@ A aplicação utiliza uma API desenvolvida especificamente para este projeto, qu
 
 ## 🛠 Tecnologias
 
-- [React]
-- [Redux]
-- [Redux Toolkit]
-- [React Router]
-- [axios]
-- [Semantic UI React]
+- React
+- HTML5
+- CSS3
+- Redux
+- Redux Toolkit
+- React Router
+- axios
+- Semantic UI React
 
 ## 📚 Conceitos abordados
 
