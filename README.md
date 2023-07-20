@@ -21,6 +21,7 @@ A aplicação utiliza uma API desenvolvida especificamente para este projeto, qu
 - [x] Postagem de fotos
 - [x] Seguir outros usuários
 - [x] Curtir fotos de outros usuários
+- [x] Comentar fotos de outros usuários 
 
 ---
 
