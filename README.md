@@ -35,7 +35,7 @@ A aplicação utiliza uma API desenvolvida especificamente para este projeto, qu
 
 - **Página de Perfil:** Mostra o perfil do usuário logado, suas informações e suas fotos postadas.
 
-- **Página de Explorar:** Permite que o usuário explore fotos de outros usuários e decida seguir novas pessoas.
+- **Página de Explorar:** Permite que o usuário explore fotos de outros usuários.
 
 ---
 
