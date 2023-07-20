@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+<h1 align="center">
+    GtGram - Frontend
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+	📸📷  Aplicação de Rede Social para compartilhamento de fotos 📷📸
+</h4>
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+🔍 O GtGram é uma aplicação de rede social desenvolvida para compartilhar fotos e interagir com outros usuários. Nesta aplicação, os usuários podem se cadastrar, fazer login, postar suas fotos, seguir outros usuários e curtir suas fotos.
 
-### `npm start`
+A aplicação utiliza uma API desenvolvida especificamente para este projeto, que permite a comunicação com o servidor e o armazenamento das informações dos usuários e fotos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Funcionalidades
 
-### `npm test`
+- [x] Cadastro de usuário
+- [x] Login de usuário
+- [x] Postagem de fotos
+- [x] Seguir outros usuários
+- [x] Curtir fotos de outros usuários
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📱 Páginas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Página de Login:** Permite que os usuários façam login em suas contas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Página de Cadastro:** Permite que novos usuários se cadastrem na aplicação.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Página Inicial:** Exibe o feed de fotos dos usuários seguidos, onde é possível curtir e comentar fotos.
 
-### `npm run eject`
+- **Página de Perfil:** Mostra o perfil do usuário logado, suas informações e suas fotos postadas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Página de Explorar:** Permite que o usuário explore fotos de outros usuários e decida seguir novas pessoas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠 Tecnologias
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React]
+- [Redux]
+- [Redux Toolkit]
+- [React Router]
+- [axios]
+- [Semantic UI React]
 
-## Learn More
+## 📚 Conceitos abordados
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Componentes React
+- Gerenciamento de Estado com Redux
+- Navegação com React Router
+- Requisições HTTP com axios
+- Estilização de componentes com Semantic UI React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Como executar o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este projeto é dividido em duas partes:
 
-### Analyzing the Bundle Size
+1. Frontend (este repositório)
+2. [Backend](https://github.com/gtamaral/api-SocialNetwork)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Pré-requisitos
 
-### Making a Progressive Web App
+Antes de começar, certifique-se de ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disso, é bom ter um editor para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Executando o Frontend
 
-### Advanced Configuration
+1. Clone este repositório:
+   ```bash
+   $ git clone https://github.com/gtamaral/gtGram-frontend.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🤝 Colaboradores
+Projeto desenvolvido por:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/gtamaral.png" width="160px;" alt="Foto do Rodrigo Amaral Jucá no GitHub"/><br>
+        <sub>
+          <b>Rodrigo Amaral Jucá</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+<div align="center">
+  <a href="#top">Voltar para o topo</a>
+</div>
+```
