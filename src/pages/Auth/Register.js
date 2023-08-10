@@ -45,26 +45,50 @@ const Register = () => {
 
   return (
     <div id="register">
-      <h2>Gtgram</h2>
-      <p className="subtitle">Cadastre para se conectar!</p>
-      <form onSubmit={handleSubmit}>
+      <div className="container">
+        <div className="container-login">
+          <div className="wrap-login">
+            <form className="login-form" onSubmit={handleSubmit}>
+            <h2>Gtgram</h2>
+            <p className="subtitle">Cadastre para se conectar!</p>
 
-        <input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} value={name}/>
+            <div className="wrap-input">
 
-        <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+              <p>Digite seu nome <span>*</span></p>
+              <input className="input" type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} value={name}/>
+              <span className="focus-input"></span>
 
-        <input type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} value={password}  />
+            </div>
+            
+            <div className="wrap-input">
+              <p>Digite seu melhor email <span>*</span></p>
+              <input className="input" type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+              <span className="focus-input"></span>
+            </div>
+            
+            <div className="wrap-input">
+              <p>Digite sua senha <span>*</span></p>
+              <input className="input"  type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} value={password}  />
+              <span className="focus-input"></span>
+            </div>
 
-        <input type="password" placeholder="Confirme sua senha" onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword} />
+            <div className="wrap-input">
+              <p>Confirme sua senha <span>*</span></p>
+              <input className="input"  type="password" placeholder="senha" onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword} />
+              <span className="focus-input"></span>
+            </div>
 
-      {!loading && <input type="submit" value="Cadastrar"/>}
-      {loading && <input type="submit" value="Aguarde..." disabled />}
-      {error && <Message msg={error} type="error" />}
-      </form>
+          {!loading && <input type="submit" value="Cadastrar"/>}
+          {loading && <input type="submit" value="Aguarde..." disabled />}
+          {error && <Message msg={error} type="error" />}
+          </form>
 
-      <p>
-        Já tem conta? <Link to="/login">Clique aqui.</Link>
-      </p>
+          <p className="call-register">
+            Já tem conta? <Link to="/login">Clique aqui</Link> para logar na sua conta.
+          </p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

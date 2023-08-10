@@ -1,10 +1,11 @@
-#login,
+/* #login,
 #register {
-    border: 1px solid #363636;
-    background-color: #000;
+    border: 1px solid black;
+    background-color: #f1f1f1;
     padding: 1.5em 2em;
     max-width: 33%;
     margin: 2em auto;
+    
 }
 
 #login h2,
@@ -12,29 +13,250 @@
     text-align: center;
     font-size: 2.1em;
     margin-top: 0;
+    color: #0094f6;
 }
 
 .subtitle {
     font-weight: bold;
-    color: #999;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+.wrap-input {
+    width: 390px;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 15px;
+
+}
+
+.input {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.2;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    background-color: transparent;
+} */
+
+
+/* 
+.subtitle {
+    font-weight: bold;
+    color: #000000;
     margin-bottom: 1.5em;
     text-align: center;
+}
+
+.login-input title {
+    color: #0094f6;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 #login form,
 #register form {
     padding-bottom: 1.3em;
     margin-bottom: 1.0em;
-    border-bottom: 1.5px solid #363636;
+    border-bottom: 1.5px solid #000000;
 }
 
 #login p,
 #register p {
     text-align: center;
+    color: #000000;
 }
 
 #login p a,
 #register p a {
     font-weight: bold;
     color: #0094f6;
+}
+
+#login login-input title {
+    color: blue;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.wrap-login {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 30%; */
+    width: 400px;
+    max-height: 70%;
+    background-color: #1e1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 60px 55px 33px 55px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    width: 100%;
+    /* max-height: 80vh; */
+}
+
+.login-form .subtitle {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2.1em;
+    margin-top: 0;
+    color: #0094f6;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+
+
+.wrap-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 37px;
+}
+
+.wrap-input p {
+    margin-bottom: 10px;
+}
+
+.wrap-input span {
+    color: #0094f6;
+    border-radius: 50%;
+}
+
+
+
+.input {
+    font-size: 15px; 
+    color: #fff;
+    line-height: 1.2;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.focus-input {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    color: #adadad;
+  }
+  
+.focus-input::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #6a7dfe;
+    background: -webkit-linear-gradient(to left, #21d4fd, #0b1879);
+    background: -o-linear-gradient(to left, #21d4fd, #0b1879);
+    background: -moz-linear-gradient(to left, #21d4fd, #0b1879);
+    background: linear-gradient(to left, #21d4fd, #0b1879);
+}
+
+.focus-input::after {
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    padding-left: 5px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.input:focus {
+    outline: 0;
+}
+  
+.input:focus+.focus-input::after {
+    top: -15px;
+}
+  
+.input:focus+.focus-input::before {
+    width: 100%;
+}
+
+.button {
+    margin-top: 1px;
+}
+
+.call-register {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px; */
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.call-register a {
+    color: #0094f6;
+}
+
+#login form,
+#register form {
+    padding-bottom: 1.3em;
+    margin-bottom: 1.0em;
+    border-bottom: 1.5px solid #adadad;
 }

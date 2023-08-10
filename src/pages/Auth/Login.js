@@ -40,19 +40,35 @@ const Login = () => {
 
   return (
     <div id="login">
-      <h2>Gtgram</h2>
-      <p className="subtitle">Faça o login para ver o que há de novo!</p>
-      <form onSubmit={handleSubmit}>
+      <div className="container">
+        <div className="container-login">
+          <div className="wrap-login">
+            <form  className="login-form" onSubmit={handleSubmit}>
+            <h2>Gtgram</h2>
+            <p className="subtitle">Faça o login para ver o que há de novo!</p>
 
-        <input type="text" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} value={email || ""}/>
+            <div className="wrap-input">
+              <p className="title">Digite seu email <span>*</span></p>
+              <input className="input" type="text" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} value={email || ""}/>
+              <span className="focus-input"></span>
+            </div>
 
-        <input type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} value={password || ""} />
-       
-        {!loading && <input type="submit" value="Entrar"/>}
-        {loading && <input type="submit" value="Aguarde..." disabled />}
-        {error && <Message msg={error} type="error" />}
-      </form>
-      <p>Ainda não tem conta? <Link to="/register">Cique aqui</Link> para se registrar!</p>
+            <div className="wrap-input">
+              <p>Digite sua senha <span>*</span></p>
+              <input className="input" type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} value={password || ""} />
+              <span className="focus-input"></span>
+            </div>
+
+
+            {!loading && <input type="submit" value="Entrar"/>}
+            {loading && <input type="submit" value="Aguarde..." disabled />}
+            {error && <Message msg={error} type="error" />}
+        </form>
+        <p className="call-register">Ainda não tem conta? <Link to="/register">Clique aqui</Link> para criar uma.</p>
+          </div>
+        </div>
+      </div>
+      
     </div>
   )
 }

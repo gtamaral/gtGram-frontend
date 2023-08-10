@@ -3,14 +3,14 @@
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    border-bottom: 2px solid #989595 ;
-    padding: 0.1em 1em;
+    border-bottom: 0.5px solid #989595 ;
+    padding: 0.5em 1em;
 }
 
 #search-form {
     position: relative;
-    width: 20%;
-
+    width: 30%;
+    /* margin-left: 60px; */
 }
 
 #search-form svg {
@@ -26,6 +26,7 @@
     border-radius: 5px;
     width: 100%;
     margin: 0;
+    background-color: #333;
 }
 
 #text {
