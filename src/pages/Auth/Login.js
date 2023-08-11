@@ -60,7 +60,7 @@ const Login = () => {
             </div>
 
 
-            {!loading && <input type="submit" value="Entrar"/>}
+            {!loading && <input type="submit2" value="Entrar"/>}
             {loading && <input type="submit" value="Aguarde..." disabled />}
             {error && <Message msg={error} type="error" />}
         </form>

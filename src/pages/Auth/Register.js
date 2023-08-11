@@ -78,7 +78,7 @@ const Register = () => {
               <span className="focus-input"></span>
             </div>
 
-          {!loading && <input type="submit" value="Cadastrar"/>}
+          {!loading && <input type="submit2" value="Cadastrar"/>}
           {loading && <input type="submit" value="Aguarde..." disabled />}
           {error && <Message msg={error} type="error" />}
           </form>

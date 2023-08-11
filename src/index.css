@@ -41,7 +41,8 @@ label span {
 }
 
 input {
-  background-color: #e3e3e3;
+  background-color: #3b3b3b; 
+  /* mexi aqui */
   color: hsl(0, 0%, 18%);
   border: 1px solid #555;
   border-radius: 2px;
@@ -56,7 +57,7 @@ input::placeholder {
 
 .btn,
 button,
-input[type="submit"] {
+input[type="submit2"] {
   /* background-color: #0094f6; */
   color:#fff;
   background: #6a7dfe;
@@ -72,8 +73,21 @@ input[type="submit"] {
   font-size: 1em;
 }
 
+.btn,
+button,
 input[type="submit"] {
-  margin-top: 0.2em;
+  background-color: #0094f6;
+  color:#fff;
+  border: none;
+  padding: 10px 8px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: .8;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  margin-top: 0.5em;
 }
 
 input:disabled {
@@ -82,9 +96,10 @@ input:disabled {
 }
 .btn,
 button:hover,
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+input[type="submit2"]:hover {
   opacity: 1;
-  background-color: #0094f6;
+
 }
 
 .cancel-btn {
