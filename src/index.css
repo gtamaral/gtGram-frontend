@@ -77,7 +77,7 @@ input[type="submit"] {
 
 
 input[type="submit"] {
-  margin-top: 5em;
+  margin-top: .5em;
 }
 
 input:disabled {

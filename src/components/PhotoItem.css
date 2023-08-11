@@ -9,9 +9,10 @@
 
 .photo-author {
     text-align: left;
-    color: #55a1ed;
+    color: #fafafa;
 }
 
 .photo-author a {
     font-weight: bold;
+    color: #0094f6;
 }
