@@ -62,7 +62,7 @@ const Register = () => {
             
             <div className="wrap-input">
               <p>Digite seu melhor email <span>*</span></p>
-              <input className="input" type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+              <input className="input" type="email" placeholder="Email@email.com" onChange={(e) => setEmail(e.target.value)} value={email} />
               <span className="focus-input"></span>
             </div>
             
@@ -74,7 +74,7 @@ const Register = () => {
 
             <div className="wrap-input">
               <p>Confirme sua senha <span>*</span></p>
-              <input className="input"  type="password" placeholder="senha" onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword} />
+              <input className="input"  type="password" placeholder="Senha" onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword} />
               <span className="focus-input"></span>
             </div>
 
