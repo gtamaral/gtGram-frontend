@@ -90,7 +90,6 @@
 .container {
     width: 100%;
     margin: 0 auto;
-
 }
 
 .container-login {
@@ -131,7 +130,7 @@
 }
 
 
-h2 {
+.h2-login {
     text-align: center;
     font-size: 2.1em;
     margin-top: 0;

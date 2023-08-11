@@ -44,7 +44,7 @@ const Login = () => {
         <div className="container-login">
           <div className="wrap-login">
             <form  className="login-form" onSubmit={handleSubmit}>
-            <h2>Gtgram</h2>
+            <h2 className="h2-login">Gtgram</h2>
             <p className="subtitle">Faça o login para ver o que há de novo!</p>
 
             <div className="wrap-input">

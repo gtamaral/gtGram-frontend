@@ -49,7 +49,7 @@ const Register = () => {
         <div className="container-login">
           <div className="wrap-login">
             <form className="login-form" onSubmit={handleSubmit}>
-            <h2>Gtgram</h2>
+            <h2 className="h2-login">Gtgram</h2>
             <p className="subtitle">Cadastre para se conectar!</p>
 
             <div className="wrap-input">
