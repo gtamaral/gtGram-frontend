@@ -8,7 +8,8 @@ body {
 }
 
 a {
-  color: black;
+  /* color: black; */
+  color: #FAFAFA;
   text-decoration: none;
 
 }
@@ -36,19 +37,19 @@ label {
 label span {
   font-weight: bold;
   margin-bottom: .5em;
-  color:#fafafa;
+  color:#AAA;
   font-size: .7em;
 }
 
 input {
   background-color: #3b3b3b; 
   /* mexi aqui */
-  color: hsl(0, 0%, 18%);
+  color: #AAA;
   border: 1px solid #555;
   border-radius: 2px;
   padding: 10px 8px;
   outline: none;
-  margin-bottom: 0.6em;
+  margin-bottom: .6em;
 }
 
 input::placeholder {
@@ -57,7 +58,7 @@ input::placeholder {
 
 .btn,
 button,
-input[type="submit2"] {
+input[type="submit"] {
   /* background-color: #0094f6; */
   color:#fff;
   background: #6a7dfe;
@@ -73,21 +74,10 @@ input[type="submit2"] {
   font-size: 1em;
 }
 
-.btn,
-button,
-input[type="submit"] {
-  background-color: #0094f6;
-  color:#fff;
-  border: none;
-  padding: 10px 8px;
-  font-weight: bold;
-  cursor: pointer;
-  opacity: .8;
-  font-size: 1em;
-}
+
 
 input[type="submit"] {
-  margin-top: 0.5em;
+  margin-top: 5em;
 }
 
 input:disabled {
@@ -96,8 +86,7 @@ input:disabled {
 }
 .btn,
 button:hover,
-input[type="submit"]:hover,
-input[type="submit2"]:hover {
+input[type="submit"]:hover {
   opacity: 1;
 
 }
