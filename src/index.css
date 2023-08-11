@@ -22,6 +22,12 @@ ul {
   list-style: none;
 
 }
+h2 {
+  text-align: center;
+  font-size: 2.1em;
+  color: #fafafa;
+}
+
 
 form {
   display: flex;
