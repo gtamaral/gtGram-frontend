@@ -67,7 +67,7 @@ button,
 input[type="submit"] {
   background-color: #0094f6;
   color:#fff;
-  background: #6a7dfe;
+  /* background: #6a7dfe; */
   border: none;
   padding: 10px 8px;
   font-weight: bold;
