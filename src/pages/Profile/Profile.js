@@ -216,7 +216,7 @@ const Profile = () => {
                                     <BsXLg onClick={(e) => handleDelete(photo._id)}/>
                                 </div>) 
                             : 
-                            (<Link className='btn' to={`/photos/${photo._id}`}>Ver</Link>)}
+                            (<Link className='btn-profile' to={`/photos/${photo._id}`}>Ver</Link>)}
                         </div>
                     ))}
                     {photos.lenght === 0 && 
