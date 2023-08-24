@@ -65,13 +65,8 @@ input::placeholder {
 .btn,
 button,
 input[type="submit"] {
-  /* background-color: #0094f6; */
+  background-color: #0094f6;
   color:#fff;
-  background: #6a7dfe;
-  background: -webkit-linear-gradient(to left, #21d4fd, #0b1879);
-  background: -o-linear-gradient(to left, #21d4fd, #0b1879);
-  background: -moz-linear-gradient(to left, #21d4fd, #0b1879);
-  background: linear-gradient(to left, #21d4fd, #0b1879);
   border: none;
   padding: 10px 8px;
   font-weight: bold;
